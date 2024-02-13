@@ -3,8 +3,8 @@ import { CustomText } from "@/components/custom";
 const About = () => {
   return (
     <div className="flex flex-col justify-center gap-12 py-6 font-primary text-secondary lg:py-12">
-      <CustomText title>
-        <span className="text-primary">Techletics Legacy&nbsp;</span>
+      <CustomText highlightedTitle>
+        Techletics Legacy&nbsp;
       </CustomText>
 
       <div className="mb-6 sm:mb-12 lg:mb-0">

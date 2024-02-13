@@ -6,7 +6,7 @@ function Hero() {
             <div className="w-full h-full px-4 sm:px-8 lg:px-16 py-2 sm:py-4 lg:py-9 relative z-10">
                 <div className="min-w-64 flex justify-center text-center items-center flex-col gap-2 pt-8">
                     <CustomText title> CHRIST COLLEGE OF ENGINEERING</CustomText>
-                    <span className="font-primary text-2xl text-primary sm:text-3xl">Irinjalakuda, Thrissur, Kerala</span>
+                    <CustomText description><span className="font-primary text-2xl text-primary sm:text-3xl">Irinjalakuda, Thrissur, Kerala</span></CustomText>
                 </div>
                 <div className="min-w-64 flex-1 text-justify mt-8">
                     <CustomText description>
