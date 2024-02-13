@@ -2,7 +2,7 @@ import { CustomText } from "@/components/custom";
 
 function Hero() {
     return (
-        <section className="bg-college-img bg-cover bg-no-repeat w-full relative overflow-clip">
+        <section className="bg-college-img bg-cover bg-no-repeat w-full relative overflow-clip z-0">
             <div className="w-full h-full px-4 sm:px-8 lg:px-16 py-2 sm:py-4 lg:py-9 relative z-10">
                 <div className="min-w-64 flex justify-center text-center items-center flex-col gap-2 pt-8">
                     <CustomText title> CHRIST COLLEGE OF ENGINEERING</CustomText>
